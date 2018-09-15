@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wsparticle_aboluoranshao.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "wsparticle_aboluoranshao_001": {
+      "__uuid__": "ad511d5f-ead6-4ed5-92bf-6828e8b69dca"
+    },
+    "wsparticle_aboluoranshao_002": {
+      "__uuid__": "672c783f-90a4-4487-addd-6b789aa3e8ff"
+    },
+    "wsparticle_aboluoranshao_003": {
+      "__uuid__": "92baa751-187f-48dd-b9f0-d6a370ddf8a4"
+    },
+    "wsparticle_aboluoranshao_004": {
+      "__uuid__": "b19de13b-4657-4863-b06b-1e0f346611ed"
+    },
+    "wsparticle_aboluoranshao_005": {
+      "__uuid__": "4d8795e8-1769-460b-b4bc-7ef1d9170f0d"
+    },
+    "wsparticle_aboluoranshao_006": {
+      "__uuid__": "ba3dbffc-09c4-4300-8f45-a3fcd4029391"
+    },
+    "wsparticle_aboluoranshao_007": {
+      "__uuid__": "3c6af0ed-145d-4c57-8136-c362848478a7"
+    },
+    "wsparticle_aboluoranshao_008": {
+      "__uuid__": "ec7a3cec-755e-4dc0-b322-be1247a2f4dd"
+    }
+  }
+}

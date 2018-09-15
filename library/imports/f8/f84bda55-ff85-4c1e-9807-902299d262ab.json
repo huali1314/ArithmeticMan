@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsparticle_daojujiguang_002",
+    "texture": "46abd153-1af8-4e06-8962-f2b4de9c4677",
+    "atlas": "faaa607c-5da7-4125-aaaf-889f0b693f72",
+    "rect": [
+      333,
+      0,
+      110,
+      506
+    ],
+    "offset": [
+      1,
+      -3
+    ],
+    "originalSize": [
+      128,
+      512
+    ]
+  }
+}

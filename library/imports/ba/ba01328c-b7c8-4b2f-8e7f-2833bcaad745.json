@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsparticle_dalvbu17",
+    "texture": "c9b4cd78-2061-4ea9-a8c4-a746e9b0bac5",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      471,
+      511
+    ],
+    "offset": [
+      -20.5,
+      -0.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wsparticle_lieyingjinjie2.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "wsparticle_lieyingjinjie2_001": {
+      "__uuid__": "98f81faf-4cfc-42f0-884c-00df086f3cff"
+    },
+    "wsparticle_lieyingjinjie2_002": {
+      "__uuid__": "fd7a1e94-788e-4c1c-af3f-8e8439112eba"
+    },
+    "wsparticle_lieyingjinjie2_003": {
+      "__uuid__": "f36de8bb-65a7-461e-afe2-cec3d017a41e"
+    },
+    "wsparticle_lieyingjinjie2_004": {
+      "__uuid__": "d0f9749b-8eeb-49fe-bd6d-07ad7b545d63"
+    },
+    "wsparticle_lieyingjinjie2_005": {
+      "__uuid__": "8287b06c-ef84-40d5-a83e-235b0415b4e5"
+    },
+    "wsparticle_lieyingjinjie2_006": {
+      "__uuid__": "90e7e322-4223-4f4c-9980-ea120c3c7260"
+    },
+    "wsparticle_lieyingjinjie2_007": {
+      "__uuid__": "60c246f8-0b04-47b3-b537-92f2127f17ba"
+    },
+    "wsparticle_lieyingjinjie2_008": {
+      "__uuid__": "f17821e4-96e4-4f91-9a49-5a82fd4fc2ae"
+    }
+  }
+}

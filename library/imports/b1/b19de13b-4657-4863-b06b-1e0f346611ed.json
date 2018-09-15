@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsparticle_aboluoranshao_004",
+    "texture": "81455db9-9230-424e-8f6c-d35bf064808f",
+    "atlas": "412ad418-376d-4136-b339-ce66b6df7063",
+    "rect": [
+      127,
+      251,
+      126,
+      250
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      130,
+      250
+    ]
+  }
+}

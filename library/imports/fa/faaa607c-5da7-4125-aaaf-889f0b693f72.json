@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wsparticle_daojujiguang.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "wsparticle_daojujiguang_001": {
+      "__uuid__": "37a7fcfd-d9e4-4f2d-8bc6-af953311d871"
+    },
+    "wsparticle_daojujiguang_002": {
+      "__uuid__": "f84bda55-ff85-4c1e-9807-902299d262ab"
+    },
+    "wsparticle_daojujiguang_003": {
+      "__uuid__": "d8364038-bfcf-49f0-9b8d-90722b4cd68a"
+    },
+    "wsparticle_daojujiguang_004": {
+      "__uuid__": "ca6bdd39-8adb-4d46-850a-086fc2e1173f"
+    }
+  }
+}

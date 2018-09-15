@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsparticle_j1515_low_008",
+    "texture": "67ed1ecc-42b6-4aa3-a43c-6d28efadd1f5",
+    "atlas": "924ea88c-ba92-46fc-b9eb-e1cdd15a3ec5",
+    "rect": [
+      330,
+      152,
+      153,
+      144
+    ],
+    "offset": [
+      5,
+      -1
+    ],
+    "originalSize": [
+      175,
+      160
+    ]
+  }
+}

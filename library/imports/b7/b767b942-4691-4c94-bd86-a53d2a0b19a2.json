@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wsparticle_j1508.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "wsparticle_j1508_001": {
+      "__uuid__": "3b990483-3206-475d-8819-4905d71bb8d5"
+    },
+    "wsparticle_j1508_002": {
+      "__uuid__": "35a34af2-575b-4632-ae09-a34f54f0532a"
+    },
+    "wsparticle_j1508_003": {
+      "__uuid__": "ddfee955-a3ad-485a-bb15-1df8fc6487a3"
+    },
+    "wsparticle_j1508_004": {
+      "__uuid__": "45aedf48-e230-4b8f-941c-8a03aa8adf85"
+    },
+    "wsparticle_j1508_005": {
+      "__uuid__": "369bbfe5-e27b-4db5-a2b1-8426832e338a"
+    },
+    "wsparticle_j1508_006": {
+      "__uuid__": "57c700c6-6f87-49e4-ad34-27e398a19d78"
+    },
+    "wsparticle_j1508_007": {
+      "__uuid__": "37755f27-b2d9-43a7-af0c-7e44da85762d"
+    },
+    "wsparticle_j1508_008": {
+      "__uuid__": "fbbf1d1e-4e5f-48de-86d3-425be12376be"
+    },
+    "wsparticle_j1508_009": {
+      "__uuid__": "ee4757ac-daa5-4de4-b0b3-9efecdc6ce1e"
+    },
+    "wsparticle_j1508_010": {
+      "__uuid__": "80b1badf-160a-458e-84d6-49905bb06af1"
+    },
+    "wsparticle_j1508_011": {
+      "__uuid__": "a9f1541f-61b7-4fc6-85f8-0240cfde79db"
+    },
+    "wsparticle_j1508_012": {
+      "__uuid__": "411d3675-7ab5-48ec-bc49-5461ba73d023"
+    },
+    "wsparticle_j1508_013": {
+      "__uuid__": "71dfb675-1d74-4a86-afb2-3078a6a90761"
+    },
+    "wsparticle_j1508_014": {
+      "__uuid__": "634e8967-8a2a-470c-8658-23c444e8883b"
+    },
+    "wsparticle_j1508_015": {
+      "__uuid__": "9be72c0f-966f-4180-951e-e2a7f2f069b9"
+    },
+    "wsparticle_j1508_016": {
+      "__uuid__": "5ae46970-69ac-45fd-9f77-b5c24091da24"
+    },
+    "wsparticle_j1508_017": {
+      "__uuid__": "9b70097b-7353-42a4-9a9f-5ddb009c9f6b"
+    },
+    "wsparticle_j1508_018": {
+      "__uuid__": "3d9d753f-c006-4e95-b1b9-ce0780aec199"
+    },
+    "wsparticle_j1508_019": {
+      "__uuid__": "a68922c0-e2ad-4b37-8741-dcda3815d063"
+    },
+    "wsparticle_j1508_020": {
+      "__uuid__": "90b3626b-2990-400c-9cd7-c76285842871"
+    },
+    "wsparticle_j1508_021": {
+      "__uuid__": "2c05bd12-ffb7-4067-9b7d-56168e550130"
+    }
+  }
+}

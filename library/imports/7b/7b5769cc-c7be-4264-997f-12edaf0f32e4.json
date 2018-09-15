@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsparticle_lieyingjinjie2",
+    "texture": "907d1578-9b64-4a54-82d2-b2ee4df53b3e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      983,
+      958
+    ],
+    "offset": [
+      -20.5,
+      33
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}
