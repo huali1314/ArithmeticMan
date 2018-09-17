@@ -107,10 +107,15 @@ cc.Class({
         this.left_time = 0;
         //本道题的花费时间
         this.costTime = 0;
+        this.lastCostTime = 0;
         //当前正在计算的题目编号
         this.curAnswerringIdx = 1;
         this.world = cc.find("Canvas");
+        this.mask = this.world.getChildByName("mask");
         this.bg = this.world.getChildByName("bg");
+        this.prompt = this.bg.getChildByName("blackboard").getChildByName("prompt");
+        this.pause_btn = this.bg.getChildByName("right").getChildByName("pause");
+        this.pause_label = this.pause_btn.getChildByName("Label").getComponent(cc.Label);
         this.scheduler = cc.director.getScheduler();
         global.eventlistener = EventListener({});
         global.eventlistener.on("enableOrUnenableBtn", function (enable) {
@@ -120,9 +125,6 @@ cc.Class({
             self.judgeResult();
         });
         global.eventlistener.on("runForwardEnd", function () {
-            // self.curAnswerringIdx += 1
-            // self.isRunning = false
-            // self.visibleQuestion()
             global.eventlistener.fire("runLeftOrRightAction", true);
         });
         global.eventlistener.on("runRightEnd", function () {
@@ -164,17 +166,21 @@ cc.Class({
         this.playerAnswers = [];
         this.updateValue();
         this.enableOrUnenableBtn(false);
-        this.scheduler.schedule(this.beginPrepare, this, 1, 0, 0, false);
+        // this.scheduler.schedule(this.beginPrepare,this,1,0,0,false);
     },
 
     pauseOrResumeGame: function pauseOrResumeGame() {
         if (cc.director.isPaused()) {
+            this.pause_label.string = "暂停";
             cc.director.resume();
         } else {
+            this.pause_label.string = "继续";
             cc.director.pause();
         }
     },
     beginPrepare: function beginPrepare() {
+        this.mask.active = false;
+        this.prompt.active = false;
         this.isRunning = true;
         global.eventlistener.fire("prepare");
     },
@@ -205,12 +211,16 @@ cc.Class({
     },
     onClickSure: function onClickSure() {
         this.playerHasActiveAnswer = true;
+        this.costTime = 0;
+        this.lastCostTime = 0;
         this.updatePlayerAnswer();
         this.updateValue();
         this.runPlayerAction();
         this.updateQuestionAnswer();
-        var sysInfo = wx.getStorageInfo();
-        console.log(sysInfo, "============sss=====");
+        if (!cc.sys.isNative) {
+            var sysInfo = wx.getStorageInfo();
+            console.log(sysInfo, "============sss=====");
+        }
     },
     updateQuestionAnswer: function updateQuestionAnswer() {
         var question = this.bg.getChildByName("question" + this.curAnswerringIdx);
@@ -254,6 +264,7 @@ cc.Class({
             self.enableOrUnenableBtn(true);
             self.generatorCurRoundQuestions();
             self.costTime = 0;
+            self.initCostTime();
             self.onClickClean();
             self.isCaluingRoundResult = false;
             global.eventlistener.fire("ready");
@@ -349,14 +360,32 @@ cc.Class({
     updateLeftTime: function updateLeftTime(leftTime) {
         this.leftTimeLabel.string = Math.ceil(leftTime);
     },
+    updateCostTime: function updateCostTime() {
+        cc.log(this.curAnswerringIdx, "========curAnswerringIdx===");
+        var costTime = this.bg.getChildByName("costTime" + this.curAnswerringIdx);
+        costTime.getComponent(cc.Label).string = this.costTime.toFixed(2) + "s";
+    },
+    initCostTime: function initCostTime() {
+        for (var i = 1; i <= 6; i++) {
+            var costTime = this.bg.getChildByName("costTime" + i);
+            costTime.getComponent(cc.Label).string = "";
+        }
+    },
     caluLeftTime: function caluLeftTime(dt) {
         this.costTime += dt;
-        this.left_time = this.maxCostTime - this.costTime < 0 ? 0 : this.maxCostTime - this.costTime;
-        this.updateLeftTime(this.left_time);
-        if (this.costTime >= this.maxCostTime) {
-            if (this.playerHasActiveAnswer == false) {
-                this.onClickSure();
-                this.onClickClean();
+        if (global.playerData.curMode == global.playerData.TESTMODE) {
+            this.left_time = this.maxCostTime - this.costTime < 0 ? 0 : this.maxCostTime - this.costTime;
+            this.updateLeftTime(this.left_time);
+            if (this.costTime >= this.maxCostTime) {
+                if (this.playerHasActiveAnswer == false) {
+                    this.onClickSure();
+                    this.onClickClean();
+                }
+            }
+        } else {
+            if (this.costTime - this.lastCostTime >= 0.1) {
+                this.lastCostTime = this.costTime;
+                this.updateCostTime();
             }
         }
     },

@@ -40,8 +40,8 @@
     "relativePath": "prefab"
   },
   "f0509fd9-d56a-433f-bf32-cfaa81a8c8e6": {
-    "asset": 1536637562478,
-    "meta": 1536637562488,
+    "asset": 1537175920682,
+    "meta": 1537175920687,
     "relativePath": "scene/main.fire"
   },
   "fc3e12df-71bd-4c88-af23-dae3467d9f29": {
@@ -50,8 +50,8 @@
     "relativePath": "scene"
   },
   "3b636ea2-3877-49f8-8bee-c8adae90c48f": {
-    "asset": 1536963397303,
-    "meta": 1536963397381,
+    "asset": 1537190800888,
+    "meta": 1537190800906,
     "relativePath": "scene/game.fire"
   },
   "f72fa4c1-c82d-436a-804f-89710b0244e2": {
@@ -384,11 +384,6 @@
     "meta": 1536563158527,
     "relativePath": "scripts/data"
   },
-  "8e0ca15c-5889-4fed-bcc7-cc6345a68ec2": {
-    "asset": 1536572228169,
-    "meta": 1536572843182,
-    "relativePath": "scripts/data/player-data.js"
-  },
   "2e412356-59ab-4f67-8312-fb3441100c18": {
     "asset": 1536571985263,
     "meta": 1536572843261,
@@ -619,19 +614,34 @@
     "meta": 1536913869893,
     "relativePath": "scripts/addExample.js"
   },
+  "1115c7f4-2b1b-4755-a4e9-7943329355e0": {
+    "asset": 1536968209606,
+    "meta": 1537151193231,
+    "relativePath": "scripts/screenadapt.js"
+  },
+  "43bd9b7c-2578-4c54-838e-a240be7bb1f8": {
+    "asset": 1537165888639,
+    "meta": 1537165893181,
+    "relativePath": "scripts/subExample.js"
+  },
+  "b1575fa7-0b59-4ee5-bcd5-dcda76c564bc": {
+    "asset": 1537167558568,
+    "meta": 1537167558572,
+    "relativePath": "anim/prompt.anim"
+  },
   "4b7e683b-0b03-4bd0-82dc-40acf1cca7f6": {
-    "asset": 1536933234694,
-    "meta": 1536933239152,
+    "asset": 1537167809723,
+    "meta": 1537167823906,
     "relativePath": "scripts/player.js"
   },
   "7124d7bb-c386-4934-bc10-d60c60b5f0c7": {
-    "asset": 1536966451985,
-    "meta": 1536966454290,
+    "asset": 1537175697095,
+    "meta": 1537175705648,
     "relativePath": "scripts/gameController.js"
   },
-  "1115c7f4-2b1b-4755-a4e9-7943329355e0": {
-    "asset": 1536967532853,
-    "meta": 1536967535244,
-    "relativePath": "scripts/screenadapt.js"
+  "8e0ca15c-5889-4fed-bcc7-cc6345a68ec2": {
+    "asset": 1537189766861,
+    "meta": 1537189768448,
+    "relativePath": "scripts/data/player-data.js"
   }
 }
