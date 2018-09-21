@@ -40,27 +40,27 @@
     "relativePath": "prefab"
   },
   "f0509fd9-d56a-433f-bf32-cfaa81a8c8e6": {
-    "asset": 1537175920682,
-    "meta": 1537175920687,
+    "asset": 1537369556749,
+    "meta": 1537369556761,
     "relativePath": "scene/main.fire"
   },
   "fc3e12df-71bd-4c88-af23-dae3467d9f29": {
-    "asset": 1535958208285,
+    "asset": 1537237681023,
     "meta": 1535958170304,
     "relativePath": "scene"
   },
   "3b636ea2-3877-49f8-8bee-c8adae90c48f": {
-    "asset": 1537190800888,
-    "meta": 1537190800906,
-    "relativePath": "scene/game.fire"
+    "asset": 1537241892885,
+    "meta": 1537241892909,
+    "relativePath": "scene/room.fire"
   },
   "f72fa4c1-c82d-436a-804f-89710b0244e2": {
-    "asset": 1536822511146,
+    "asset": 1537366423471,
     "meta": 1535958426615,
     "relativePath": "scripts"
   },
   "a682f8e9-7c78-4be3-92ad-7881cfa48b14": {
-    "asset": 1536828525347,
+    "asset": 1537366806537,
     "meta": 1535958817221,
     "relativePath": "prefabs"
   },
@@ -80,7 +80,7 @@
     "relativePath": "font/mikado_outline_shadow.png"
   },
   "b9d77c3b-f7ac-4054-9c61-e340962480ec": {
-    "asset": 1536733195964,
+    "asset": 1537450301006,
     "meta": 1535966823406,
     "relativePath": "textures"
   },
@@ -140,7 +140,7 @@
     "relativePath": "anim/fireBoom.anim"
   },
   "a9182222-abf9-49af-9953-fc81e4c73555": {
-    "asset": 1536905364277,
+    "asset": 1537456156731,
     "meta": 1536027588874,
     "relativePath": "anim"
   },
@@ -390,7 +390,7 @@
     "relativePath": "scripts/global.js"
   },
   "88bff538-81e4-4947-8197-a8a60a0ba0c5": {
-    "asset": 1536758352053,
+    "asset": 1537274758382,
     "meta": 1536634201130,
     "relativePath": "textures/hero"
   },
@@ -614,11 +614,6 @@
     "meta": 1536913869893,
     "relativePath": "scripts/addExample.js"
   },
-  "1115c7f4-2b1b-4755-a4e9-7943329355e0": {
-    "asset": 1536968209606,
-    "meta": 1537151193231,
-    "relativePath": "scripts/screenadapt.js"
-  },
   "43bd9b7c-2578-4c54-838e-a240be7bb1f8": {
     "asset": 1537165888639,
     "meta": 1537165893181,
@@ -629,19 +624,109 @@
     "meta": 1537167558572,
     "relativePath": "anim/prompt.anim"
   },
-  "4b7e683b-0b03-4bd0-82dc-40acf1cca7f6": {
-    "asset": 1537167809723,
-    "meta": 1537167823906,
-    "relativePath": "scripts/player.js"
-  },
-  "7124d7bb-c386-4934-bc10-d60c60b5f0c7": {
-    "asset": 1537175697095,
-    "meta": 1537175705648,
-    "relativePath": "scripts/gameController.js"
-  },
   "8e0ca15c-5889-4fed-bcc7-cc6345a68ec2": {
     "asset": 1537189766861,
     "meta": 1537189768448,
     "relativePath": "scripts/data/player-data.js"
+  },
+  "24c3b0ae-3067-4db2-b2bb-a140b058b0e4": {
+    "asset": 1537456460871,
+    "meta": 1537456460881,
+    "relativePath": "scene/game.fire"
+  },
+  "4b7e683b-0b03-4bd0-82dc-40acf1cca7f6": {
+    "asset": 1537238389414,
+    "meta": 1537238715033,
+    "relativePath": "scripts/player.js"
+  },
+  "76e0754e-9859-418e-8107-f032005010a8": {
+    "asset": 1537238673033,
+    "meta": 1537238715039,
+    "relativePath": "textures/door.png"
+  },
+  "1115c7f4-2b1b-4755-a4e9-7943329355e0": {
+    "asset": 1537239590610,
+    "meta": 1537239594496,
+    "relativePath": "scripts/screenadapt.js"
+  },
+  "aeb17209-8cb1-4c61-ba3c-886090c67d2d": {
+    "asset": 1537262652000,
+    "meta": 1537274758824,
+    "relativePath": "textures/hero/p_02.png"
+  },
+  "15790e05-6b5a-4337-9bd9-791afe4123d6": {
+    "asset": 1537262652000,
+    "meta": 1537274758827,
+    "relativePath": "textures/hero/p_01.png"
+  },
+  "2e7e613b-2e66-4814-b926-78ea4fd4f9ba": {
+    "asset": 1537275054619,
+    "meta": 1537275054639,
+    "relativePath": "anim/thinking.anim"
+  },
+  "c0bcd5e5-5be1-4ce7-8f9b-54d11f2b719e": {
+    "asset": 1537450637854,
+    "meta": 1537450637883,
+    "relativePath": "prefabs/rain.prefab"
+  },
+  "7124d7bb-c386-4934-bc10-d60c60b5f0c7": {
+    "asset": 1537368868657,
+    "meta": 1537368892301,
+    "relativePath": "scripts/uiLogic.js"
+  },
+  "7262e284-dd15-41f0-8ef9-db65ddf26420": {
+    "asset": 1537368973690,
+    "meta": 1537368997194,
+    "relativePath": "scripts/gameController.js"
+  },
+  "93d0d5fc-e1df-4e4e-ad49-487662eef94a": {
+    "asset": 1537397182399,
+    "meta": 1537397210074,
+    "relativePath": "textures/circle.png"
+  },
+  "9dab485b-1b73-4f94-ab99-a0c4a7be996c": {
+    "asset": 1537397438270,
+    "meta": 1537397475242,
+    "relativePath": "textures/yelloCircle.png"
+  },
+  "2bc7ffea-7546-466e-ae43-ef53ba4a58ad": {
+    "asset": 1537400701224,
+    "meta": 1537400703164,
+    "relativePath": "scripts/rainBowGameLogic.js"
+  },
+  "5e0713cf-e9b9-416c-9a41-8f540a18287e": {
+    "asset": 1537451196336,
+    "meta": 1537448737395,
+    "relativePath": "textures/rainbow"
+  },
+  "a1c90a4f-1fb0-4e9e-859d-c6881126c3ab": {
+    "asset": 1537448683900,
+    "meta": 1537448737568,
+    "relativePath": "textures/rainbow/rainBow.plist"
+  },
+  "ddef4e7e-b855-48ef-bc5d-38c934b7f0ed": {
+    "asset": 1537448683898,
+    "meta": 1537448737551,
+    "relativePath": "textures/rainbow/rainBow.png"
+  },
+  "e5fef5a6-c3fa-4a58-a61c-3266bd224762": {
+    "asset": 1537450288237,
+    "meta": 1537450356643,
+    "relativePath": "textures/rain.png"
+  },
+  "ed593d02-d9e4-47fc-a849-26d5f93f8acf": {
+    "asset": 1537451162891,
+    "meta": 1537451196454,
+    "relativePath": "textures/rainbow/rainBow_bg.png"
+  },
+  "7cc4e87f-04a6-40d1-bd65-789918117cc7": {
+    "asset": 1537456275531,
+    "meta": 1537456275539,
+    "relativePath": "anim/fade.anim"
+  },
+  "6656f336-0a54-4337-ace9-da8b8bf32b31": {
+    "asset": 1537495639406,
+    "meta": 1537495906610,
+    "relativePath": "scripts/rain.js"
   }
 }

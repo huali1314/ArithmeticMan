@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rainBow_bg",
+    "texture": "ed593d02-d9e4-47fc-a849-26d5f93f8acf",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      900,
+      640
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      900,
+      640
+    ]
+  }
+}

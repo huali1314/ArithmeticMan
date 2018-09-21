@@ -44,9 +44,6 @@ cc.Class({
     start () {
         var self = this
         this.initPlayerPos()
-        global.eventlistener.on("runWalkAction",function(isRight){
-            self.runWalkAction(isRight)
-        });
         global.eventlistener.on("prepare",function(){
             self.runPrepareAction()
         });

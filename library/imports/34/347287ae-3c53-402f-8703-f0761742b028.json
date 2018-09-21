@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "door",
+    "texture": "76e0754e-9859-418e-8107-f032005010a8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      98,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      98,
+      128
+    ]
+  }
+}

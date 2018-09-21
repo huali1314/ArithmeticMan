@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "rainBow.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "rainbow_blue": {
+      "__uuid__": "62a054b7-b41a-4f83-b649-812f313c3a43"
+    },
+    "rainbow_cyan": {
+      "__uuid__": "6d41d224-d853-4a7b-8afc-a339349ed893"
+    },
+    "rainbow_green": {
+      "__uuid__": "26b3d31c-fbf3-4879-8764-e3bd51ca428b"
+    },
+    "rainbow_orange": {
+      "__uuid__": "80d11e2d-d9cb-4fd1-a108-520702ab7471"
+    },
+    "rainbow_purple": {
+      "__uuid__": "cad4b25b-1e41-4544-855c-df22a9275a45"
+    },
+    "rainbow_red": {
+      "__uuid__": "136eb13a-ce4f-4f7f-b435-0c81ab278f2c"
+    },
+    "rainbow_yellow": {
+      "__uuid__": "2cbc8611-e702-41a7-8b52-7c215c3e7470"
+    }
+  }
+}

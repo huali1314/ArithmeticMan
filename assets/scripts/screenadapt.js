@@ -43,10 +43,12 @@ cc.Class({
         console.log(screenSize,"+============screenSize=====")
         console.log(winSize,"+============winSize=====")
         if((screenSize.width/screenSize.height)>2||(screenSize.width/screenSize.height)<0.5){
-            var leftWidget = this.left.getComponent(cc.Widget)
-            var rightWidget = this.right.getComponent(cc.Widget)
-            leftWidget.left = 60
-            rightWidget.right = 60
+            if(this.left && this.right){
+                var leftWidget = this.left.getComponent(cc.Widget)
+                var rightWidget = this.right.getComponent(cc.Widget)
+                leftWidget.left = 60
+                rightWidget.right = 60
+            }
             cc.view.setDesignResolutionSize(1620,750,2)
         }
         //横屏模式修改为逆时针旋转90度

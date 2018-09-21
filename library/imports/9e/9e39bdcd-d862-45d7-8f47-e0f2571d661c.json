@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yelloCircle",
+    "texture": "9dab485b-1b73-4f94-ab99-a0c4a7be996c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      308,
+      310
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      308,
+      310
+    ]
+  }
+}

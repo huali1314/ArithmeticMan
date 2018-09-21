@@ -1,23 +1,14 @@
 "use strict";
-cc._RF.push(module, '7124de7w4ZJNLwQ1gxgtfDH', 'gameController');
-// scripts/gameController.js
+cc._RF.push(module, '7124de7w4ZJNLwQ1gxgtfDH', 'uiLogic');
+// scripts/uiLogic.js
 
 "use strict";
 
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-var EventListener = require("./event-listener");
 var global = require("./global");
 var tips = ["广告阻碍了你的求知欲？却阻止不了对游戏,电视剧的狂热？", "求知一下怎么了，说不定这次不用看广告呢", "猜拳决定要不要看广告吧，说不定你今天运气爆棚呢！"];
 //算术达人之火柴人
 //测一测你的心算能力，或许没有你认为的那么好，也没有你想象的那么差，经常用脑，提高记忆力和计算能力，妈妈再也不用担心我的数学成绩了
+var prompt = ["好好学习，天天向上！！！", "学习是一件快乐的事情！！！", "知识是智慧的火炬"];
 cc.Class({
     extends: cc.Component,
 
@@ -92,7 +83,6 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-        var self = this;
         //玩家的本题答案
         this.playerAnswer = "";
         //是否已经主动答题
@@ -111,13 +101,19 @@ cc.Class({
         //当前正在计算的题目编号
         this.curAnswerringIdx = 1;
         this.world = cc.find("Canvas");
-        this.mask = this.world.getChildByName("mask");
         this.bg = this.world.getChildByName("bg");
+        this.mask = this.bg.getChildByName("mask");
         this.prompt = this.bg.getChildByName("blackboard").getChildByName("prompt");
-        this.pause_btn = this.bg.getChildByName("right").getChildByName("pause");
+        this.pause_btn = this.bg.getChildByName("pause");
         this.pause_label = this.pause_btn.getChildByName("Label").getComponent(cc.Label);
         this.scheduler = cc.director.getScheduler();
-        global.eventlistener = EventListener({});
+
+        // cc.director.getCollisionManager().enabled = true;
+        // cc.director.getCollisionManager().enabledDebugDraw = true;
+        // cc.director.getCollisionManager().enabledDrawBoundingBox = true;
+    },
+    start: function start() {
+        var self = this;
         global.eventlistener.on("enableOrUnenableBtn", function (enable) {
             self.enableOrUnenableBtn(enable);
         });
@@ -153,11 +149,6 @@ cc.Class({
             //显示当前正在回答的试题
             self.visibleQuestion();
         });
-        // cc.director.getCollisionManager().enabled = true;
-        // cc.director.getCollisionManager().enabledDebugDraw = true;
-        // cc.director.getCollisionManager().enabledDrawBoundingBox = true;
-    },
-    start: function start() {
         //本轮所有题目缓存
         this.questions = [];
         //本轮正确答案缓存
