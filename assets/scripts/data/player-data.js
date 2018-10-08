@@ -9,7 +9,7 @@ const PlayerData = function () {
     that.wrongQuestionTotalNum = 0;
     that.TRAINMODE = 1;//1代表训练模式，2代表测试模式
     that.TESTMODE = 2;
-    that.curMode = 2;
+    that.curMode = 1;
     return that;
 };
 export default PlayerData;

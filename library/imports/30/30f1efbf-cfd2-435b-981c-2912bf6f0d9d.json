@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsparticle_54",
+    "texture": "8ada424e-f636-449e-b4e6-afa3f708d52d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      348,
+      109
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      348,
+      109
+    ]
+  }
+}
